@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2? familia= Roboto:peso@400;700 & display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.container-top{
+    background-color: #222222;
+    color: #f3f3f3;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+.list-header{
+    list-style: none;
+}
+.header-container-bottom{
+        background-color: #F0A83E;
+}
+.logo{
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header-color-logo{
+    color: #3C2313; 
+}
