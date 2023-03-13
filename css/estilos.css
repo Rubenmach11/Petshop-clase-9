@@ -13,8 +13,9 @@
     line-height: 12px;
     font-family: 'Roboto', sans-serif;
 }
-.list-header{
-    list-style: none;
+#arg{ 
+    text-align: right;
+ 
 }
 .header-container-bottom{
         background-color: #F0A83E;
