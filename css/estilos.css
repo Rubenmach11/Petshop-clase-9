@@ -1,30 +1,83 @@
 @import url('https://fonts.googleapis.com/css2? familia= Roboto:peso@400;700 & display=swap');
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
-}
+    margin: 0;
+    padding: 0;
 
+}
+body{
+    width: 1024px;
+}
 /* header */
 
-.container-top{
-    background-color: #222222;
+.nav-top{
+    font-size: 10px; 
+    height: 20px;
     color: #f3f3f3;
-    font-size: 10px;
-    line-height: 12px;
-    font-family: 'Roboto', sans-serif;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 50px;
+    align-items: center;
 }
-#arg{ 
-    text-align: right;
- 
+.nav-top-lista{
+    display: flex;
+    list-style: none;    
 }
-.header-container-bottom{
-        background-color: #F0A83E;
+.nav-top2{
+    display: flex;
+    background-color: #f0a83e;
+    height: 62px;
+    color: #ffffff;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+    align-items: center;
 }
-.logo{
-    color: #ffff;
-    font-weight: bold;
-    font-size: 20px;
+.nav-lista-horizontal{
+    display: flex;
+    list-style: none;
 }
-.header-color-logo{
-    color: #3C2313; 
+.imagen-fondo{    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 409px;
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+  
+}
+.texto.main1{
+    display: flex;    
+}
+h2{
+    display: flex;
+    margin: 12px; 
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    width: 365px;
+    background-color: #ffffff;
+    color: #3c2313;
+    border-radius: 5px;
+}
+.texto2{
+    display: flex;
+    font-size: 16px;
+    height: 19px;
+    width: 190px;
+    margin-left: 95px;
+}
+.boton1{
+    background-color: #f0a83e;
+    width: 141px;
+    height: 49px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 117px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 12px;
 }
