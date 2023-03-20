@@ -130,6 +130,9 @@ article{
     #amarillo{
         color: rgba(240, 168, 62, 1);
     }
+    .h2{
+        margin-top: 78px ;
+    }
 .cuartaSeccion{
     display: flex;
     flex-direction: column;
